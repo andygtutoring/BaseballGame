@@ -1,0 +1,33 @@
+<!-- baseball.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Game</title>
+    <link rel="stylesheet" href="css/baseball.css">
+  </head>
+  <body>
+    <h1>Baseball Game</h1>
+    <div id="game-container">
+      <div id="scoreboard">
+        <h2>Scoreboard</h2>
+        <p id="home-team-score">Home Team: 0</p>
+        <p id="away-team-score">Away Team: 0</p>
+        <p id="inning">Inning: 1</p>
+      </div>
+      <div id="current-at-bat"></div>
+      <button id="swing-button" disabled>Swing</button>
+      <div id="game-log">
+        <h2>Game Log</h2>
+        <ul id="log"></ul>
+      </div>
+    </div>
+    <script src="js/Player.js"></script>
+    <script src="js/Batter.js"></script>
+    <script src="js/Pitcher.js"></script>
+    <script src="js/Team.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/baseball.js"></script>
+  </body>
+</html>
